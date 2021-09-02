@@ -171,15 +171,3 @@ else:
     print("Thanks for buying hack--- Please contact")
     print(" on telegram -----------@Rxce_Hacker")
 
-
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
