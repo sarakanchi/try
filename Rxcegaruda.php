@@ -11,7 +11,7 @@ from base64 import b64decode,b64encode
 from datetime import date
 
 expirydate = datetime.date(2021, 10, 2)
-#expirydate = datetime.date(2021, 10, 2)
+#expirydate = datetime.date(2021, 10, 1)
 today=date.today()
 def hero():
 
@@ -168,9 +168,10 @@ if(expirydate>today):
 else:
     banner='figlet RXCE'
     system(banner)
-    print("Your hack has expired--- Please contact")
-    print(" on telegram -----------@Prithvihackz")
-© 2021 GitHub, Inc.
+    print("Thanks for buying hack--- Please contact")
+    print(" on telegram -----------@Rxce_Hacker")
+
+
 Terms
 Privacy
 Security
