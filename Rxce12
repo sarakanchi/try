@@ -79,10 +79,10 @@ def hero():
         current=input()
         current=int(current)
         chalo()
-        print("\n---------Successfully hacked the server-----------")
+        print("\y---------Successfully hacked the server-----------")
         chalo1()
-        print("\n---------Successfully got the colour -------------")
-        print('\n')
+        print("\y---------Successfully got the colour -------------")
+        print('\y')
         last2=str(current)[-2:]
         check=checkg(last2)
 
