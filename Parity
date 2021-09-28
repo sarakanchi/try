@@ -22,7 +22,7 @@ def hero():
             for c in itertools.cycle(['|', '/', '-', '\\']) :
                 if done:
                     break
-                sys.stdout.write('\rhacking in the Bcone server for next colour--------- ' + c)
+                sys.stdout.write('\rhacking in the Parity server for next colour--------- ' + c)
                 sys.stdout.flush()
                 time.sleep(0.1)
             sys.stdout.write('\rDone!     ')
@@ -64,7 +64,7 @@ def hero():
     clear()
     y=1
     newperiod=period
-    banner='figlet RXCE V2'
+    banner='figlet RXCE V2 🤩'
     thisway=[2,6,8,11,12,15,16,18,19,20]
     thatway=[1,3,4,5,7,9,10,14,13,17]
     numbers=[]
@@ -73,7 +73,7 @@ def hero():
         clear()
         system(banner)
         print("Contact me on telegram RXCE_HACKER")
-        print("Enter ",newperiod," Bcone Price :")
+        print("Enter ",newperiod," Parity Price :")
         current=input()
         current=int(current)
         chalo()
