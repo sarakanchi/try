@@ -149,21 +149,22 @@ if(expirydate>today):
     elif(now>Third and now<Thirdend):
             period=360
             hero()
-    elif(True):
+    elif(now>Final and now<Finalend):
             period=400
             hero()
     else:
         banner='figlet RXCE'
         print("Hi!! 🤑Thanks for buying the hack🤑")
         print("----------⌛Your play time⌛----------")
-        print("26  Oct 2021, 11:00 AM- 11:30 AM")
-        print("26  Oct 2021, 02:00 PM- 02:30 PM")
-        print("26  Oct 2021, 05:30 PM- 06:00 PM")
-        print("26  Oct 2021,  08:00 PM- 08:30 PM")
+        print("1  Oct 2021, 11:00 AM- 11:30 AM")
+        print("1  Oct 2021, 02:00 PM- 02:30 PM")
+        print("1  Oct 2021, 05:30 PM- 06:00 PM")
+        print("1  Oct 2021, 08:00 PM- 08:30 PM")
         print("Please play on the given time, and ")
         print("If you think it is an error contact")
         print(" admin on telegram @RXCE_HACKER ")
-        (" Channel join krle bhosdke😁 @RXCE_HACKER ")
+        ("Channel join krle bhosdke😁 @RXCE_HACKER")
+        print( "Msg me on telegram @RXCE_HACKER")
 
 
 
@@ -178,3 +179,4 @@ else:
     print(" 2.     3000 INR -------  30 Days(1200 Games")
     print("*---------*----------*-------------*----------*")
     print("Your custom hack can be made request from us.")
+    print( "Msg me on telegram @RXCE_HACKER")
