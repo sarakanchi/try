@@ -82,6 +82,8 @@ def hero():
         print("\n---------Successfully got the colour -------------")
         print('\n')
         print("play at your own risk please don't blame owner on any loss")
+    
+
         def getSum(n):
             sum=0
             for digit in str(n):
@@ -151,7 +153,7 @@ if(expirydate>today):
             period=360
             hero()
     elif(True):
-            period=172
+            period=173
             hero()
     else:
         banner='figlet RXCE'
@@ -164,9 +166,9 @@ if(expirydate>today):
         print("Please play on the given time, and ")
         print("If you think it is an error contact")
         print(" admin on telegram @RXCE_HACKER ")
-        ("Channel join krle bhosdke😁 @RXCE_HACKER")
+        print("Channel join krle bhosdke😁 @RXCE_HACKER")
         print( "Msg me on telegram @RXCE_HACKER")
-        banner='figlet RXCE_HACKER'
+        banner=('figlet RXCE_HACKER')
         print("play at your own risk please don't blame owner on any loss")
       
 else:
