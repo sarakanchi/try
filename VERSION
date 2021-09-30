@@ -159,7 +159,7 @@ if(expirydate>today):
         print("1 Oct 2021, 11:00 AM- 11:30 AM")
         print("1 Oct 2021, 02:00 PM- 02:30 PM")
         print("1 Oct 2021, 05:30 PM- 06:00 PM")
-        print("1 Oct 2021, 08:00 PM- 08:30 PM")
+        #print("1 Oct 2021, 08:00 PM- 08:30 PM")
         print("Please play on the given time, and ")
         print("If you think it is an error contact")
         print(" admin on telegram @RXCE_HACKER ")
