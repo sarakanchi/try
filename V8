@@ -22,7 +22,7 @@ def hero():
             for c in itertools.cycle(['|', '/', '-', '\\']) :
                 if done:
                     break
-                sys.stdout.write('\rhacking in the Parity server for next colour--------- ' + c)
+                sys.stdout.write('\rhacking in the Bcone server for next colour--------- ' + c)
                 sys.stdout.flush()
                 time.sleep(0.1)
             sys.stdout.write('\rDone!     ')
@@ -73,7 +73,7 @@ def hero():
         clear()
         system(banner)
         print("Contact me on telegram RXCE_HACKER")
-        print("Enter ",newperiod," Parity Price :")
+        print("Enter ",newperiod," Bcone Price :")
         current=input()
         current=int(current)
         chalo()
@@ -147,13 +147,13 @@ if(expirydate>today):
             period=240
             hero()
     elif(now>Second and now<Secondend):
-            period=204
+            period=280
             hero()
     elif(now>Third and now<Thirdend):
             period=360
             hero()
     elif(True):
-            period=240
+            period=280
             hero()
     else:
         banner='figlet RXCE'
