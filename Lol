@@ -1,0 +1,15 @@
+import random
+print("Tool Created by Nikhil")
+print("Select an attack for your victim")
+print()
+choice=input("Enter Choice >>>")
+if choice=="1":
+	length=int(input("Enter Length>>"))
+	n=input("Enter name>")
+	t=input("Town name>")
+	b=input("Enter bday>")
+	r=input("Surname>")
+	f=n+t+b+r
+	p="".join(random.sample(f,length))
+	print()
+	print("password is"+p)
