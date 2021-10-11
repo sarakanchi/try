@@ -114,7 +114,7 @@ def hero():
             print("-----------Current Time UP----------")
             sys.exit(" \n \n \n Contact on Telegram @HACK_RXCE")
             #print(numbers)
-             banner='figlet @HACK_RXCE'
+             
   
 
 
