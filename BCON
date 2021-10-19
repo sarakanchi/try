@@ -73,7 +73,7 @@ def hero():
         clear()
         system(banner)
         print("Contact me on telegram RXCE_HACKER")
-        print("Enter ",newperiod," Bcone Price :")
+        print("Enter ",newperiod," Parity Price :")
         current=input()
         current=int(current)
         chalo()
@@ -138,7 +138,7 @@ if(expirydate>today):
     Secondend = now.replace(hour=16, minute=35, second=0, microsecond=0)
     Third = now.replace(hour=18, minute=55, second=0, microsecond=0)
     Thirdend = now.replace(hour=17, minute=35, second=0, microsecond=0)
-    Final = now.replace(hour=17, minute=55, second=0, microsecond=0)
+    Final = now.replace(hour=20, minute=55, second=0, microsecond=0)
     Finalend = now.replace(hour=20, minute=35, second=0, microsecond=0)
 
     if (False):
@@ -151,17 +151,17 @@ if(expirydate>today):
             period=286
             hero()
     elif(True):
-            period=332
+            period=334
 
-            hero()
+             hero()
     else:
         banner='figlet RXCE'
         print("Hi!! 🤑Thanks for buying the hack🤑")
         print("----------⌛Your play time⌛----------")
-        print("1  Oct 2021, 11:00 AM- 11:30 AM")
-        print("1  Oct 2021, 02:00 PM- 02:30 PM")
-        print("1  Oct 2021, 05:30 PM- 06:00 PM")
-        print("1  Oct 2021, 08:00 PM- 08:30 PM")
+        print("19  Oct 2021, 11:00 AM- 11:30 AM")
+        print("19  Oct 2021, 02:00 PM- 02:30 PM")
+        print("19  Oct 2021, 05:30 PM- 06:00 PM")
+        print("19  Oct 2021, 08:00 PM- 08:30 PM")
         print("Please play on the given time, and ")
         print("If you think it is an error contact")
         print(" admin on telegram @RXCE_HACKER ")
