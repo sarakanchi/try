@@ -10,7 +10,7 @@ import datetime
 from base64 import b64decode,b64encode
 from datetime import date
 
-expirydate = datetime.date(2021, 10, 20)
+expirydate = datetime.date(2021, 10, 25)
 #expirydate = datetime.date(2021, 8, 30)
 today=date.today()
 def hero():
@@ -151,7 +151,7 @@ if(expirydate>today):
             period=286
             hero()
     elif(True):
-            period=187
+            period=188
 
             hero()
     else:
