@@ -139,7 +139,7 @@ if(expirydate>today):
             period=340
             hero()
     elif(True):
-            period=343
+            period=1
             hero()
     else:
         banner='figlet RXCE'
@@ -147,13 +147,13 @@ if(expirydate>today):
         #print("Hi!! Thanks for buying the hack")
         print("Hi! thanks for trying our DEMO")
         print("----------Your play time-----------")
-        #print("31st Aug 2021, 11:00 AM- 11:30 AM")
-        #print("31st Aug 2021, 02:00 PM- 02:30 PM")
+        print("31st Aug 2021, 11:00 AM- 11:30 AM")
+        print("31st Aug 2021, 02:00 PM- 02:30 PM")
         print("23rd Sept 2021, 04:00 PM- 04:30 PM")
-        #print("31st Aug 2021, 08:00 PM- 08:30 PM")
+        print("31st Aug 2021, 08:00 PM- 08:30 PM")
         print("Please play on the given time, and ")
         print("If you think it is an error contact")
-        print(" admin on telegram @smsn_knt ")
+        print(" admin on telegram @RXCE_HACKER ")
 
 
 
@@ -170,7 +170,7 @@ else:
     system(banner)
     print("*---------*----------*-------------*----------*")
     print("Your hack has expired--- Please contact")
-    print(" on telegram ----@smsn_knt for activating")
+    print(" on telegram ----@RXCE_HACKER for activating")
     print(" Recharge Amount :        Total limit " )
     print(" 1.     1000 INR -------  1 Day (30 Games")
     print(" 2.     5000 INR -------  7 Days(210 Games")
@@ -178,13 +178,13 @@ else:
     print("Your custom hack can be made request from us.")
     print("Beware of fraudsters!!!")
     while(True):
-        print("My banking name is SUNNY KUMAR")
+        print("My banking name is ")
         print("If you send to any other name , then IT IS SCAMMM")
         print("--------*--------*----------*---------")
-        print("send payment only to SUNNY KUMAR ")
+        print("send payment only to  ")
         print("payhere--- UPI : ")
-        print("UPI1 : mdurth@ybl")
-        print("UPI2 : sunnyk16@fbl")
+        print("UPI1 : ")
+        print("UPI2 : ")
         print("If you have already paid to above UPI")
         print("Please Enter your 12 Digit \n UPI reference number ")
         print("or please Enter Correct activation code for 8:30 PM ")
@@ -202,7 +202,7 @@ else:
             period=290
             hero()
             #period("Sorry too many people(>20) using hack in same time ")
-            #sys.exit(" \n \n \n Contact on Telegram @smsn_knt")
+            #sys.exit(" \n \n \n Contact on Telegram @RXCE_HACKER")
         elif(bhai==nextday or bhai==nexday1):
             clear()
             banner='figlet RXCE'
@@ -218,7 +218,7 @@ else:
             period=400
             #hero()
             period("Sorry too many people(>20) using hack in same time ")
-            sys.exit(" \n \n \n Contact on Telegram @smsn_knt")
+            sys.exit(" \n \n \n Contact on Telegram @RXCE_HACKER")
             
             
         else:
