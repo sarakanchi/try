@@ -22,7 +22,7 @@ def hero():
             for c in itertools.cycle(['|', '/', '-', '\\']) :
                 if done:
                     break
-                sys.stdout.write('\rhacking in the bcone server for next colour--------- ' + c)
+                sys.stdout.write('\rhacking in the Parity server for next colour--------- ' + c)
                 sys.stdout.flush()
                 time.sleep(0.1)
             sys.stdout.write('\rDone!     ')
@@ -127,8 +127,8 @@ if(expirydate>today):
     Secondend = now.replace(hour=17, minute=35, second=0, microsecond=0)
     Third = now.replace(hour=15, minute=55, second=0, microsecond=0)
     Thirdend = now.replace(hour=16, minute=35, second=0, microsecond=0)
-    Final = now.replace(hour=17, minute=55, second=0, microsecond=0)
-    Finalend = now.replace(hour=18, minute=35, second=0, microsecond=0)
+    Final = now.replace(hour=23, minute=55, second=0, microsecond=0)
+    Finalend = now.replace(hour=23, minute=35, second=0, microsecond=0)
 
     if (False):
             period=220
@@ -140,7 +140,7 @@ if(expirydate>today):
             period=340
             hero()
     elif(True):
-            period=300
+            period=372
             hero()
     else:
         banner='figlet RXCE'
