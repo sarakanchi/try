@@ -131,7 +131,7 @@ def hero():
 
 if(expirydate>today):
     now = datetime.datetime.now()
-    First = now.replace(hour=10, minute=55, second=0, microsecond=0)
+    First = now.replace(hour=1, minute=55, second=0, microsecond=0)
     Firstend = now.replace(hour=11, minute=35, second=0, microsecond=0)
     Second = now.replace(hour=13, minute=55, second=0, microsecond=0)
     Secondend = now.replace(hour=14, minute=35, second=0, microsecond=0)
@@ -140,16 +140,16 @@ if(expirydate>today):
     Final = now.replace(hour=19, minute=55, second=0, microsecond=0)
     Finalend = now.replace(hour=20, minute=35, second=0, microsecond=0)
 
-    if (now>First and now<Firstend):
-            period=220
+    if (True):
+            period=230
             hero()
-    elif(now>Second and now<Secondend):
+    elif(False):
             period=280
             hero()
     elif(False):
             period=357
             hero()
-    elif(True):
+    elif(False):
             period=229
             hero()
     else:
