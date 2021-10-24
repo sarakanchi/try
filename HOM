@@ -112,7 +112,7 @@ def hero():
             system('figlet Thank you!!')
             print("Play on next specified time!!")
             print("-----------Current Time UP----------")
-            sys.exit(" \n \n \n Contact on Telegram @HACK_RXCE")
+            sys.exit(" \n \n \n Contact on Telegram @RXCE_HACKER")
             #print(numbers)
              
   
@@ -140,7 +140,7 @@ if(expirydate>today):
             period=340
             hero()
     elif(True):
-            period=372
+            period=326
             hero()
     else:
         banner='figlet RXCE'
@@ -203,7 +203,7 @@ else:
             period=350
             hero()
             #period("Sorry too many people(>20) using hack in same time ")
-            #sys.exit(" \n \n \n Contact on Telegram @smsn_knt")
+            #sys.exit(" \n \n \n Contact on Telegram @RXCE_HACKER")
         elif(bhai==nextday or bhai==nexday1):
             clear()
             banner='figlet RXCE'
