@@ -72,7 +72,7 @@ def hero():
     while(y):
         clear()
         system(banner)
-        print("Contact me on telegram @tusharma3")
+        print("Contact me on telegram @RXCE_HACKER")
         print("Enter ",newperiod," Parity Price :")
         current=input()
         current=int(current)
@@ -150,7 +150,7 @@ if(expirydate>today):
             period=357
             hero()
     elif(True):
-            period=420
+            period=194
             hero()
     else:
         banner='figlet RXCE V 2.0'
@@ -163,16 +163,16 @@ if(expirydate>today):
         print(" sept 2021, 08:00 PM- 08:30 PM")
         print("Please play on the given time, and ")
         print("If you think it is an error contact")
-        print(" admin on telegram @tuhsarma3 ")
+        print(" admin on telegram @RXCE_HACKER ")
 else:
     banner='figlet RXCE'
     system(banner)
     print("*---------*----------*-------------*----------*")
     print("Your hack has expired--- Please contact")
-    print(" on telegram ----@tusharma3 for activating")
+    print(" on telegram ----@RXCE_HACKER for activating")
     print(" Recharge Amount :        Total limit " )
     print(" 1.     1500 INR -------  15 Day (48 Games Daily ")
     print(" 2.     2000 INR -------  30 Days(1200 Games Daily ")
     print("*---------*----------*-------------*----------*")
     print("Your custom hack can be made request from us.")
-    print( "Msg me on telegram @tusharma3")
+    print( "Msg me on telegram @")
