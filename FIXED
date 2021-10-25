@@ -41,7 +41,7 @@ def hero():
             for c in itertools.cycle(['|', '/', '-', '\\']):
                 if done:
                     break
-                sys.stdout.write('\rgetting the colour wait --------- ' + c)
+                sys.stdout.write('\rRuko zara sbar karo  --------- ' + c)
                 sys.stdout.flush()
                 time.sleep(0.2)
             sys.stdout.write('\rDone!     ')
@@ -107,9 +107,9 @@ def hero():
         y=input("Do you want to play : Press 1 and 0 to exit \n")
         if(y==0):
             y=False
-        if (len(numbers)>11):
+        if (len(numbers)>100):
             clear()
-            system('figlet Thank you!!')
+            system('figlet FINISH!!')
             print("Play on next specified time!!")
             print("-----------Current Time UP----------")
             sys.exit(" \n \n \n Contact on Telegram @RXCE_HACKER")
@@ -143,7 +143,7 @@ if(expirydate>today):
             period=0
             hero()
     else:
-        banner='figlet DIAMOND'
+        banner='figlet COLOR PREDECTION'
         system(banner)
         print("Hi!! Thanks for buying the hack")
         #print("Hi! thanks for trying our DEMO")
