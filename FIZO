@@ -10,8 +10,8 @@ import datetime
 from base64 import b64decode,b64encode
 from datetime import date
 
-expirydate = datetime.date(2021, 10, 27)
-#expirydate = datetime.date(2021, 8, 30)
+expirydate = datetime.date(2021, 10, 29)
+#expirydate = datetime.date(2021, 10, 30)
 today=date.today()
 def hero():
 
@@ -62,12 +62,12 @@ def hero():
             _ = system('clear')
     def getSum(n):
         sum=0
-        for digit in str(n):
+        for digit in str(y):
             sum+= int(digit)
         return sum
-    def lawde_time_pe_khel(n):
+    def lawde_time_pe_khel(y):
         check=0
-        for digit in (n):
+        for digit in (y):
             if(int(digit)==0):
                 check=check+1
         return check
@@ -121,12 +121,12 @@ def hero():
 
 if(expirydate>today):
     now = datetime.datetime.now()
-    First = now.replace(hour=13, minute=55, second=0, microsecond=0)
-    Firstend = now.replace(hour=14, minute=35, second=0, microsecond=0)
-    Second = now.replace(hour=16, minute=25, second=0, microsecond=0)
-    Secondend = now.replace(hour=17, minute=35, second=0, microsecond=0)
-    Third = now.replace(hour=15, minute=55, second=0, microsecond=0)
-    Thirdend = now.replace(hour=16, minute=35, second=0, microsecond=0)
+    First = now.replace(hour=1, minute=55, second=0, microsecond=0)
+    Firstend = now.replace(hour=1, minute=35, second=0, microsecond=0)
+    Second = now.replace(hour=1, minute=25, second=0, microsecond=0)
+    Secondend = now.replace(hour=1, minute=35, second=0, microsecond=0)
+    Third = now.replace(hour=1, minute=55, second=0, microsecond=0)
+    Thirdend = now.replace(hour=1, minute=35, second=0, microsecond=0)
     Final = now.replace(hour=1, minute=55, second=0, microsecond=0)
     Finalend = now.replace(hour=1, minute=35, second=0, microsecond=0)
 
