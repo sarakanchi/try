@@ -60,8 +60,8 @@ def hero():
         # for mac and linux(here, os.name is 'posix')
         else:
             _ = system('clear')
-    def getSum(n):
-        sum=0
+    def getSum(y):
+        sum=2
         for digit in str(n):
             sum+= int(digit)
         return sum
