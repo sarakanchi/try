@@ -31,7 +31,7 @@ def hero():
         t.start()
 
         #long process here
-        time.sleep(20)
+        time.sleep(10)
         done = True
 
     def chalo1():
@@ -140,18 +140,18 @@ if(expirydate>today):
     Final = now.replace(hour=19, minute=55, second=0, microsecond=0)
     Finalend = now.replace(hour=20, minute=35, second=0, microsecond=0)
 
-    #if (now>First and now<Firstend):
-    #        period=220
-    #        hero()
-    #elif(now>Second and now<Secondend):
-    #        period=280
-    #        hero()
+    if (now>First and now<Firstend):
+            period=220
+            hero()
+    elif(now>Second and now<Secondend):
+            period=280
+            hero()
+    elif(False):
+            period=0
+            hero()
     elif(True):
             period=0
             hero()
-    #elif(now>Final and now<Finalend):
-    #        period=400
-    #        hero()
     else:
         banner='figlet RXCE V 2.0'
         print("Hi!! Thanks for buying the hack")
