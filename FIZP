@@ -60,14 +60,14 @@ def hero():
         # for mac and linux(here, os.name is 'posix')
         else:
             _ = system('clear')
-    def getSum(n):
+    def getSum(y):
         sum=0
-        for digit in str(y):
+        for digit in str(n):
             sum+= int(digit)
         return sum
-    def lawde_time_pe_khel(y):
+    def lawde_time_pe_khel(n):
         check=0
-        for digit in (y):
+        for digit in (n):
             if(int(digit)==0):
                 check=check+1
         return check
@@ -90,7 +90,7 @@ def hero():
         print('\n')
         last2=str(current)[-2:]
         samjha_maadarchod=lawde_time_pe_khel(last2)
-        if(newperiod%2==2):
+        if(newperiod%2==0):
             sum=getSum(current)
             if(sum%2==1):
                 print(newperiod+1," : 🔴, RED")
@@ -98,7 +98,7 @@ def hero():
                 print(newperiod+1,"  : 🟢, GREEN")
         else:
             sum=getSum(current)
-            if(sum%2==1):
+            if(sum%2==0):
                 print(newperiod+1,"   : 🔴, RED")
             else:
                 print(newperiod+1,"   : 🟢, GREEN")
@@ -107,7 +107,7 @@ def hero():
         y=input("Do you want to play : Press 1 and 0 to exit \n")
         if(y==0):
             y=False
-        if (len(numbers)>100):
+        if (len(numbers)>10):
             clear()
             system('figlet FINISH!!')
             print("Play on next specified time!!")
